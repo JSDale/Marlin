@@ -1010,7 +1010,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 50, 50, 400, 140 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 833.34, 1008.08, 1333.33, 140 }
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
@@ -1853,8 +1853,8 @@
 
 // Manually set the home position. Leave these undefined for automatic settings.
 // For DELTA this is the top-center of the Cartesian print volume.
-#define MANUAL_X_HOME_POS -40
-#define MANUAL_Y_HOME_POS -10
+#define MANUAL_X_HOME_POS -42
+#define MANUAL_Y_HOME_POS -3
 #define MANUAL_Z_HOME_POS 0
 //#define MANUAL_I_HOME_POS 0
 //#define MANUAL_J_HOME_POS 0
